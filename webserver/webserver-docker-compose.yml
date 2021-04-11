@@ -1,7 +1,7 @@
 version: "2"
 services:
   oracle:
-   image: wnameless/oracle-xe-11g-r2 
+   image: wnameless/oracle-xe-11g-r2
    container_name: oracle
    ports:
      - "49161:1521"
